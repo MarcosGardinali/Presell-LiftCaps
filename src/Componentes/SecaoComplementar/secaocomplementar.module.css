@@ -47,6 +47,7 @@
 .resultados__titulo strong{
     background-color: #0F7E00;
     color: #FFFFFF;
+    padding: 0 5px;
 }
 
 .resultados__textos__container{
