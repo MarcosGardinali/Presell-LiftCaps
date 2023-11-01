@@ -1,0 +1,36 @@
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1%;
+    background-color: #0F7E00;
+    background-image: url("https://liftdetoxcaps.com/wp-content/uploads/2022/10/BG-Lift-Comprou-Ganhou.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.conteudo__divisoria{
+    transform: rotate(180deg);
+    width: 100%;
+}
+
+.conteudo__divisoria svg{
+    width: calc(100% + 1.3px);
+    height: 40px;
+    fill: #FFFFFF;
+}
+
+/*Reponsividade tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .conteudo{
+        background-size: cover;
+    }
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .conteudo{
+        background-size: cover;
+    }
+}
