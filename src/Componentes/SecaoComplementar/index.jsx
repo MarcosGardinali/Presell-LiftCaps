@@ -3,6 +3,7 @@ import style from './secaocomplementar.module.css'
 import CardResultados from '../CardsResultados'
 import Botao from '../Botao';
 import { RiArrowDropRightLine } from 'react-icons/ri';
+import resultados from "../../assets/images/resultados.jpg"
 
 export default function SecaoComplementar() {
   return (
@@ -22,7 +23,7 @@ export default function SecaoComplementar() {
           <p className={style.resultados__textos}> <RiArrowDropRightLine className={style.icon__size} color='#0F7E00' />Pessoas com metabolismo lento;</p>
           <p className={style.resultados__textos}> <RiArrowDropRightLine className={style.icon__size} color='#0F7E00' />Pessoas com ansiedade e várias outras coisas que você possa imaginar.</p>
         </article>
-        <img className={style.resultados__imagem} src="https://liftdetoxcaps.com/wp-content/uploads/2022/05/Lift-Simulacao.jpg" alt="Imagem Resultados" />
+        <img className={style.resultados__imagem} src={resultados} alt="Imagem Resultados" />
       </section>
       <Botao>
         Quero Emagrecer Agora

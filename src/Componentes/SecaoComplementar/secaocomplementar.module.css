@@ -127,6 +127,10 @@
         width: 100%;
     }
 
+    .resultados__imagem{
+        width: 60%;
+    }
+
     .icon__size{
         min-width: 10%;
         height: 100%;
