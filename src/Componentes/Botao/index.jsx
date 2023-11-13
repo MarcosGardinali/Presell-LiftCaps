@@ -3,6 +3,6 @@ import style from './botao.module.css'
 
 export default function Botao({children}) {
   return (
-    <a href="https://ev.braip.com/ref?pv=pro3yoz3&af=afineolgnp" className={style.botao}>{children}</a>
+    <a href="https://bit.ly/3QA9EZA" className={style.botao}>{children}</a>
   )
 }
